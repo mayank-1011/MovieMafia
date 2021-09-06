@@ -1,0 +1,69 @@
+.modal_head{
+ 
+    width:40%;
+    border:1px solid green;
+    margin:auto;
+    top: 50%; 
+    left:0;
+    right:0;
+    transform: translateY(-50%);
+    position: absolute;
+    border-radius: 10px;
+    background-color: #40E0D0;
+    z-index:10;
+ 
+   
+}
+.form_head{
+    width:100%;
+    margin:auto;
+    margin-top:5%;
+}
+
+.form_head input{
+    border:1px solid green ;
+    border-radius: 20px;
+    width:70%;
+    height:35px;
+    margin-top:10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:20px;
+    color:black;
+}
+.form_head textarea:focus, input:focus{
+    outline: none;
+    box-shadow: 1px 1px 5px green;
+}
+
+
+.form_head button{
+   background-color: white;
+   border-radius:7px;
+   color:green;
+   height:35px;
+   width:30%;
+   margin-top:10px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   transition: 0.5s all;
+   margin-bottom: 2%;
+}
+
+.form_head button:hover{
+    background-color: #4169e1;
+    color:white
+}
+.uploadImage{
+   
+    margin-top: 0%;
+}
+
+.uploadImage input{
+    border:none;
+    margin-top: 0px;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.getImage{
+    margin-top:10px
+}

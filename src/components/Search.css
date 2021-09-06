@@ -1,0 +1,32 @@
+.searchClass{
+    text-align: center;
+    margin-top: 2%;
+
+}
+
+.searchClass input{
+    border:0px solid black;
+    border-radius: 30px;
+    background-color:#f4f0ec;
+    width:70%;
+    height:35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding:10px;
+
+}
+
+.searchClass button{
+   background-color: white;
+   border-radius:7px;
+    border:0px;
+   height:32px;
+   width:32px;
+   border-radius: 50%;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   transition: 0.5s all;
+}
+
+.searchClass button:hover{
+    border:1px solid green;
+  
+}

@@ -1,0 +1,39 @@
+.singleItem{
+    
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px black;
+    transition: 0.2s all;
+}
+
+.singleItem:hover{
+    background-color: black;
+    color:white
+}
+
+.image{
+    border:1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+
+    margin-top:2%;
+    max-height: 300px;
+    transition: 0.2s all;
+    object-fit: cover;
+   
+}
+.image:hover{
+    border:0px;
+    box-shadow: 1px 1px 20px white;
+}
+
+.description{
+    margin-top: 2%;
+    font-style: italic;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
